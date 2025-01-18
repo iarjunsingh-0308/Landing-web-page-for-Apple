@@ -1,0 +1,643 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+
+/* ---------------NAVIGATION---------------- */
+
+
+.navbar {
+  background-color: #f5f5f7;
+}
+
+.nav-items {
+  height: 48px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-items a {
+  font-size: 15px;
+  font-weight: 400;
+  color: #313131;
+  text-decoration: none;
+}
+
+.nav-logo {
+  background-image: url(/images/apple-logo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30px;
+  width: 30px;
+}
+
+.search-icon i {
+  font-size: 18px;
+  font-weight: 400;
+  color: #313131;
+}
+
+.cart-icon i {
+  font-size: 18px;
+  font-weight: 400;
+  color: #313131;
+}
+
+/* ----------------HEADER--------------- */
+
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header-text h1 {
+  font-size: 45px;
+  margin: 15px 0;
+  color: #6e6e73;
+}
+
+.header-text span {
+  color: #313131;
+}
+.header-text p {
+  max-width: 600px;
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+.primary-btn {
+  background-color: #313131;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 20px;
+  margin: 15px 0;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.secondary-btn {
+  background-color: transparent;
+  color: #313131;
+  border: 3px solid #313131;
+  border-radius: 20px;
+  padding: 8px 20px;
+  border-radius: 25px;
+  font-size: 15px;
+  margin: 15px 10px;
+  cursor: pointer;
+}
+
+.header-image img {
+  height: auto;
+  width: 450px;
+  border-radius: 20px;
+  margin: 15px 0;
+}
+
+/* ---------------PRODUCTS SECTION--------------- */
+
+.products {
+  background-color: #f5f5f7;
+}
+.product-text h2 {
+  font-size: 28px;
+  margin: 10px 40px;
+  padding: 25px;
+}
+
+.product-text span {
+  font-size: 24px;
+  color: #6e6e73;
+}
+
+.product-cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  position: relative;
+  display: inline-block;
+}
+
+.card img {
+  height: 450px;
+  width: 360px;
+  border-radius: 20px;
+  margin: 20px;
+  border: 1px solid #313131;
+  box-shadow: 2px 4px 12px #00000014;
+}
+
+.card-text-1 {
+  position: absolute;
+  top: 15%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  pointer-events: none;
+}
+.card-text-1 span {
+  font-size: 12px;
+  color: #1d9bd7;
+}
+
+.card-text-1 h3 {
+  font-size: 28px;
+  color: #313131;
+}
+
+.card-text-2 {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  pointer-events: none;
+}
+
+.span-iPhone {
+  font-size: 28px;
+}
+
+.card-text-2 h3 {
+  font-size: 17px;
+  margin-top: 5px;
+}
+
+.span-iPhone-prize {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.card-text-3 {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  pointer-events: none;
+}
+
+.span-iWatch {
+  font-size: 28px;
+}
+
+.card-text-3 h3 {
+  font-size: 17px;
+  margin-top: 5px;
+}
+
+.span-iWatch-prize {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.card-text-4 {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  pointer-events: none;
+}
+
+.span-iPad {
+  font-size: 28px;
+}
+
+.card-text-4 h3 {
+  font-size: 17px;
+  margin-top: 5px;
+}
+
+.span-iPad-prize {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.card-text-5 {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  pointer-events: none;
+}
+
+.span-macbook {
+  font-size: 28px;
+}
+
+.card-text-5 h3 {
+  font-size: 17px;
+  margin-top: 5px;
+}
+
+.span-macbook-prize {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.card-text-6 {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  pointer-events: none;
+}
+
+.span-iPhone16 {
+  font-size: 28px;
+}
+
+.card-text-6 h3 {
+  font-size: 17px;
+  margin-top: 5px;
+}
+
+.span-iPhone16-prize {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.card-text-7 {
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  /* color: white; */
+  font-size: 1.5em;
+  font-weight: bold;
+  pointer-events: none;
+}
+
+.span-offer {
+  font-size: 12px;
+  color: gray;
+}
+
+.card-text-7 h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: black;
+}
+
+.span-offer-prize {
+  font-size: 16px;
+  margin-top: 2px;
+  font-weight: 400;
+  color: black;
+}
+
+.card-text-8 {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  pointer-events: none;
+}
+
+.span-iWatch2 {
+  font-size: 24px;
+}
+
+.card-text-8 h3 {
+  font-size: 17px;
+  margin-top: 5px;
+}
+
+.span-iWatch2-prize {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.card-text-9 {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  pointer-events: none;
+}
+
+.span-iPadAir {
+  font-size: 28px;
+}
+
+.card-text-9 h3 {
+  font-size: 17px;
+  margin-top: 5px;
+}
+
+.span-iPadAir-prize {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.card-text-11 {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  pointer-events: none;
+}
+
+.span-iPadPro {
+  font-size: 28px;
+}
+
+.card-text-11 h3 {
+  font-size: 17px;
+  margin-top: 5px;
+}
+
+.span-iPadPro-prize {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.card-text-12 {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  pointer-events: none;
+}
+
+.span-macbookAir {
+  font-size: 28px;
+}
+
+.card-text-12 h3 {
+  font-size: 17px;
+  margin-top: 5px;
+}
+
+.span-macbookAir-prize {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.card-text-13 {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  pointer-events: none;
+}
+
+.span-iMac {
+  font-size: 28px;
+}
+
+.card-text-13 h3 {
+  font-size: 17px;
+  margin-top: 5px;
+}
+
+.span-iMac-prize {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+
+/* ---------------HELP SECTION--------------- */
+
+
+.help-text h2 {
+  font-size: 28px;
+  margin: 10px 50px;
+  padding: 25px;
+}
+
+.help-text span {
+  font-size: 24px;
+  color: #6e6e73;
+}
+
+.help-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.help-card {
+  position: relative;
+  display: inline-block;
+}
+
+.help-card img {
+  height: 500px;
+  width: 480px;
+  border-radius: 20px;
+  margin: 20px;
+  border: 1px solid #313131;
+  box-shadow: 2px 4px 12px #00000014;
+}
+
+.help-text-1 {
+  position: absolute;
+  top: 15%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5em;
+  font-weight: bold;
+  pointer-events: none;
+}
+
+.help-text-1 span {
+  font-size: 12px;
+  color: #6e6e73;
+}
+
+.help-text-1 h3 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #313131;
+}
+
+.help-text-2 {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5em;
+  font-weight: bold;
+  pointer-events: none;
+}
+
+.help-text-2 span {
+  font-size: 12px;
+  color: #6e6e73;
+}
+
+.help-text-2 h3 {
+  font-size: 28px;
+  font-weight: 600;
+  color: white;
+}
+
+.help-text-3 {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  pointer-events: none;
+}
+
+.help-text-3 span {
+  font-size: 12px;
+  color: #6e6e73;
+}
+
+.help-text-3 h3 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #313131;
+}
+
+.help-text-3 p {
+  font-size: 17px;
+  font-weight: 400;
+  margin-top: 2px;
+}
+
+.help-text-4 {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5em;
+  font-weight: bold;
+  pointer-events: none;
+}
+
+.help-text-4 span {
+  font-size: 12px;
+  color: #6e6e73;
+}
+
+.help-text-4 h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #313131;
+}
+
+.help-text-4 p {
+  font-size: 17px;
+  margin-top: 2px;
+  font-weight: 400;
+}
+
+
+/* ---------------FOOTER SECTION--------------- */
+
+
+.footer {
+  background-color: #e4e4e7;
+  color: #313131;
+  height: 300px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer-logo {
+  background-image: url(/images/apple-logo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 50px;
+}
+
+.footer-link a {
+  font-size: 15px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #313131;
+}
+
+.footer-link h3 {
+  font-size: 20px;
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-social {
+  text-align: center;
+}
+
+.footer-social h3 {
+  font-size: 25px;
+  color: #313131;
+  margin: 15px 0;
+}
+
+.social-icons i {
+  font-size: 20px;
+  margin: 15px 10px;
+  cursor: pointer;
+  color: #313131;
+}
+
+
+/* ---------------COPYRIGHT--------------- */
+
+
+.copyright {
+  text-align: center;
+  font-size: 15px;
+  margin: 15px 0;
+  color: #313131;
+}
