@@ -31,7 +31,7 @@
 }
 
 .nav-logo {
-  background-image: url(/images/apple-logo.png);
+  background-image: url(images/apple-logo.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 30px;
@@ -590,7 +590,7 @@
 }
 
 .footer-logo {
-  background-image: url(/images/apple-logo.png);
+  background-image: url(images/apple-logo.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 50px;
